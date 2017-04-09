@@ -19,7 +19,7 @@ public class SportsDirect {
 
     @Test
     public void filterSwimsuits() throws InterruptedException {
-        System.setProperty("webdriver.gecko.driver", "C:/Users/Irrinka/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "gecko/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

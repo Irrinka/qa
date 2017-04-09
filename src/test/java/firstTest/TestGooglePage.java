@@ -16,7 +16,7 @@ public class TestGooglePage {
 
     @Test
     public void testGooglePage() {
-        System.setProperty("webdriver.gecko.driver", "C:/Users/Irrinka/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "gecko/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://google.com");
